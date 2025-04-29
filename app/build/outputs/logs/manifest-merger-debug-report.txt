@@ -1,0 +1,820 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.navigation:navigation-common:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\782fb816d2ab77a2ded5110e5a376a37\transformed\navigation-common-2.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1ac2755f3e5e51b54cdbbbf8b3a22f21\transformed\navigation-runtime-2.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9c16d4a688e40f4de3a806428078626e\transformed\navigation-common-ktx-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5b94dd84f0bc05bc89e72cd3b8c38f2d\transformed\navigation-runtime-ktx-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9269b5747ac41c2cb01bf28621387b45\transformed\navigation-compose-2.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:2:1-67:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\557db3011070afcd8e0ec0883af4ca26\transformed\play-services-appset-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cronet:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\24f95c3f28c3cd28c4447e4ad25a692a\transformed\play-services-cronet-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a53de341ca76c703698084e2ac3f3cc7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.ump:user-messaging-platform:3.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\7b7ba74aafe2fbe2c797256de6a299d7\transformed\user-messaging-platform-3.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1de1d7cfd01b94034e64defb67b334d4\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d0fc7e57e08484efb1b7659a97a31b5\transformed\coil-compose-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\13ae4acb2928397bee8ab5144d5b18a2\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3ba78c0030dba0fe0cdc2229f1465571\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\0b6fed75d7d1b1e261f82c2215c034a3\transformed\material3-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\2a4bf7ca9f13788ba1da2ddcbfe4f055\transformed\material-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\e4425cbe6bc883ad63836a87580481ec\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\87d3f98f515ea59bc64a83cee6dbc53d\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e89d4c2d47ed1562ea77a53883bea911\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8cac119ae8717cbfe6e440443a89e508\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4b3009f1658088fea768411b59810af\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\bb48dc650ff85112a7b9192352687873\transformed\ui-tooling-data-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a3391ad37a8ad255f40c54d38e50bf89\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b5ab037ef283cd860dd9f323a35dc6ba\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5f6b914aed00ff6ca2da900a75ce9ad\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93eb2ad944017326ddd75c257b7edc76\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b24196499c4c153e54d9961f3050ebe9\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9e4bb43f8f8bd5173788fa4835bcb5c8\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93f2788ad75886aeeeb698c317883ef3\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\98eb270c941055308104f4751b4bc03a\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.13.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2d2c0a71b527238871bdf9ee1c937bb3\transformed\webkit-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\eb28db56a9577f3d5973396e317f3ecc\transformed\coil-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\24047faa4b19232abce55ec9302101f1\transformed\coil-base-2.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\5c53e3e022eb2461bd262154c69c457d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d7de1c27328f650cec289ca8a198f6ae\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2499897c02c78c019ba1394320121684\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\46eab25f90277703ba8b905e7f385d7b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5251f345554e0dc40d1721e49f454cf6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\205c04d7568959defcfc8fbceb32edde\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1b1e54160d3f3da4c59e178e65a10590\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5dc02228dd59ffea803c3da6c40c15d\transformed\graphics-path-1.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\40ba6f015c11570bfc59b1b4fc9c58ed\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd3f1d62ba39f2189e024f5f865d335a\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\a98b4d1d0482edd313dc4ca489fd1a2b\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\84db9873e0aa215cca1ec272a57abcd7\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\01e8a3ef17d9c6f59b46652061a6fe3e\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\010b19cdc5975b9ab515fd5bf00b33a1\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\d32f7650692d1e25a44bc5ed2c838ee7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\7d29be40795e7d74b7a04804101e392e\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\509a02f2f876446887d6d855ad3a235a\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\da363d7dee3dcd54d327d2992fd37697\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\f697125bd1b38cf7ce082cc4be21ca91\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\e3639d8b1f60cc84874c02bca2393282\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\6a5a643597c78de68b059417ec9a54c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\94b13a242bf882f838fe24f45882e537\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e90f31fa52cf5edec932a0c81fcd2b12\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6ba881a1ebaecf8ac7efcc9c136d8fbd\transformed\activity-1.10.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\8b5c7a48aa8b0febffe9d2cd1ddeea49\transformed\activity-ktx-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\516717c9f93a80561ddbb5188edde5d4\transformed\activity-compose-1.10.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8e3889c24cb8d82bcecb8c3afb056aad\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\aa42881a6fb24a09a053170295b2e99f\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d49061a77797bcf5116abf6a9ea4ca3f\transformed\datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\fd065d9917cb34477e757008c7724043\transformed\room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d76a7ca15b8d6aab61eab682eb9e11bc\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6b45bae38268d6f9ac2a8f75a6e0da80\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\39639c77587900c26e73a12d8715d50e\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5d55cd3560f65699e5098255e7a0faa7\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\00cc96e81497a60369191b1ee6481438\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\ea3e5365727ba8fa4bcbd9cde9e7d96c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd4673525a31e97ae5d8bb7ff2c0f078\transformed\exifinterface-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\17061d2decacd1f3d319cdf2b7ce57dd\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b98f9c5f35bab9ce35b2462610c2912f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4fcc2bd47999b143ada26f1d3e015ba\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\9464ffac7cea97ed1c3b3380557f3921\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\44977dde7aebd9743ea425c858472912\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:15:2-22:13
+	package
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:9:5-67
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:19:6-67
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:19:6-67
+	android:name
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:7:5-30:19
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:7:5-30:19
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:53:5-65:19
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:53:5-65:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\557db3011070afcd8e0ec0883af4ca26\transformed\play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\557db3011070afcd8e0ec0883af4ca26\transformed\play-services-appset-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-cronet:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\24f95c3f28c3cd28c4447e4ad25a692a\transformed\play-services-cronet-18.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-cronet:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\24f95c3f28c3cd28c4447e4ad25a692a\transformed\play-services-cronet-18.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a53de341ca76c703698084e2ac3f3cc7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a53de341ca76c703698084e2ac3f3cc7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\ea3e5365727ba8fa4bcbd9cde9e7d96c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\ea3e5365727ba8fa4bcbd9cde9e7d96c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:12:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:10:9-54
+	android:roundIcon
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:16:9-29
+	android:icon
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:15:9-44
+	android:dataExtractionRules
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:9:9-65
+activity#com.example.parcial.MainActivity
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:18:9-29:20
+	android:label
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:21:13-45
+	android:exported
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:20:13-36
+	android:theme
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:22:13-48
+	android:name
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\782fb816d2ab77a2ded5110e5a376a37\transformed\navigation-common-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\782fb816d2ab77a2ded5110e5a376a37\transformed\navigation-common-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1ac2755f3e5e51b54cdbbbf8b3a22f21\transformed\navigation-runtime-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1ac2755f3e5e51b54cdbbbf8b3a22f21\transformed\navigation-runtime-2.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9c16d4a688e40f4de3a806428078626e\transformed\navigation-common-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9c16d4a688e40f4de3a806428078626e\transformed\navigation-common-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5b94dd84f0bc05bc89e72cd3b8c38f2d\transformed\navigation-runtime-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5b94dd84f0bc05bc89e72cd3b8c38f2d\transformed\navigation-runtime-ktx-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9269b5747ac41c2cb01bf28621387b45\transformed\navigation-compose-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9269b5747ac41c2cb01bf28621387b45\transformed\navigation-compose-2.8.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\557db3011070afcd8e0ec0883af4ca26\transformed\play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\557db3011070afcd8e0ec0883af4ca26\transformed\play-services-appset-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cronet:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\24f95c3f28c3cd28c4447e4ad25a692a\transformed\play-services-cronet-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cronet:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\24f95c3f28c3cd28c4447e4ad25a692a\transformed\play-services-cronet-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a53de341ca76c703698084e2ac3f3cc7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a53de341ca76c703698084e2ac3f3cc7\transformed\play-services-tasks-18.2.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:3.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\7b7ba74aafe2fbe2c797256de6a299d7\transformed\user-messaging-platform-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:3.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\7b7ba74aafe2fbe2c797256de6a299d7\transformed\user-messaging-platform-3.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1de1d7cfd01b94034e64defb67b334d4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1de1d7cfd01b94034e64defb67b334d4\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d0fc7e57e08484efb1b7659a97a31b5\transformed\coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d0fc7e57e08484efb1b7659a97a31b5\transformed\coil-compose-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\13ae4acb2928397bee8ab5144d5b18a2\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\13ae4acb2928397bee8ab5144d5b18a2\transformed\coil-compose-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3ba78c0030dba0fe0cdc2229f1465571\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3ba78c0030dba0fe0cdc2229f1465571\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:21:5-23:42
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\0b6fed75d7d1b1e261f82c2215c034a3\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\0b6fed75d7d1b1e261f82c2215c034a3\transformed\material3-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\2a4bf7ca9f13788ba1da2ddcbfe4f055\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\2a4bf7ca9f13788ba1da2ddcbfe4f055\transformed\material-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\e4425cbe6bc883ad63836a87580481ec\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\e4425cbe6bc883ad63836a87580481ec\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\87d3f98f515ea59bc64a83cee6dbc53d\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\87d3f98f515ea59bc64a83cee6dbc53d\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e89d4c2d47ed1562ea77a53883bea911\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e89d4c2d47ed1562ea77a53883bea911\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8cac119ae8717cbfe6e440443a89e508\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8cac119ae8717cbfe6e440443a89e508\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4b3009f1658088fea768411b59810af\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4b3009f1658088fea768411b59810af\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\bb48dc650ff85112a7b9192352687873\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\bb48dc650ff85112a7b9192352687873\transformed\ui-tooling-data-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a3391ad37a8ad255f40c54d38e50bf89\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a3391ad37a8ad255f40c54d38e50bf89\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b5ab037ef283cd860dd9f323a35dc6ba\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b5ab037ef283cd860dd9f323a35dc6ba\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5f6b914aed00ff6ca2da900a75ce9ad\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5f6b914aed00ff6ca2da900a75ce9ad\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93eb2ad944017326ddd75c257b7edc76\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93eb2ad944017326ddd75c257b7edc76\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b24196499c4c153e54d9961f3050ebe9\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b24196499c4c153e54d9961f3050ebe9\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9e4bb43f8f8bd5173788fa4835bcb5c8\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\9e4bb43f8f8bd5173788fa4835bcb5c8\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93f2788ad75886aeeeb698c317883ef3\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\93f2788ad75886aeeeb698c317883ef3\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\98eb270c941055308104f4751b4bc03a\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\98eb270c941055308104f4751b4bc03a\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.13.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2d2c0a71b527238871bdf9ee1c937bb3\transformed\webkit-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.13.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2d2c0a71b527238871bdf9ee1c937bb3\transformed\webkit-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\eb28db56a9577f3d5973396e317f3ecc\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\eb28db56a9577f3d5973396e317f3ecc\transformed\coil-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\24047faa4b19232abce55ec9302101f1\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\24047faa4b19232abce55ec9302101f1\transformed\coil-base-2.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\5c53e3e022eb2461bd262154c69c457d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\5c53e3e022eb2461bd262154c69c457d\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d7de1c27328f650cec289ca8a198f6ae\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d7de1c27328f650cec289ca8a198f6ae\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2499897c02c78c019ba1394320121684\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\2499897c02c78c019ba1394320121684\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\46eab25f90277703ba8b905e7f385d7b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\46eab25f90277703ba8b905e7f385d7b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5251f345554e0dc40d1721e49f454cf6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5251f345554e0dc40d1721e49f454cf6\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\205c04d7568959defcfc8fbceb32edde\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\205c04d7568959defcfc8fbceb32edde\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1b1e54160d3f3da4c59e178e65a10590\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\1b1e54160d3f3da4c59e178e65a10590\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5dc02228dd59ffea803c3da6c40c15d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5dc02228dd59ffea803c3da6c40c15d\transformed\graphics-path-1.0.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\40ba6f015c11570bfc59b1b4fc9c58ed\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\40ba6f015c11570bfc59b1b4fc9c58ed\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd3f1d62ba39f2189e024f5f865d335a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd3f1d62ba39f2189e024f5f865d335a\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\a98b4d1d0482edd313dc4ca489fd1a2b\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\a98b4d1d0482edd313dc4ca489fd1a2b\transformed\lifecycle-runtime-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\84db9873e0aa215cca1ec272a57abcd7\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\84db9873e0aa215cca1ec272a57abcd7\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\01e8a3ef17d9c6f59b46652061a6fe3e\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\01e8a3ef17d9c6f59b46652061a6fe3e\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\010b19cdc5975b9ab515fd5bf00b33a1\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\010b19cdc5975b9ab515fd5bf00b33a1\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\d32f7650692d1e25a44bc5ed2c838ee7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\d32f7650692d1e25a44bc5ed2c838ee7\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\7d29be40795e7d74b7a04804101e392e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\7d29be40795e7d74b7a04804101e392e\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\509a02f2f876446887d6d855ad3a235a\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\509a02f2f876446887d6d855ad3a235a\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\da363d7dee3dcd54d327d2992fd37697\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\da363d7dee3dcd54d327d2992fd37697\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\f697125bd1b38cf7ce082cc4be21ca91\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\f697125bd1b38cf7ce082cc4be21ca91\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\e3639d8b1f60cc84874c02bca2393282\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\e3639d8b1f60cc84874c02bca2393282\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\6a5a643597c78de68b059417ec9a54c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\6a5a643597c78de68b059417ec9a54c2\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\94b13a242bf882f838fe24f45882e537\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\94b13a242bf882f838fe24f45882e537\transformed\lifecycle-viewmodel-compose-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e90f31fa52cf5edec932a0c81fcd2b12\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\e90f31fa52cf5edec932a0c81fcd2b12\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6ba881a1ebaecf8ac7efcc9c136d8fbd\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6ba881a1ebaecf8ac7efcc9c136d8fbd\transformed\activity-1.10.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\8b5c7a48aa8b0febffe9d2cd1ddeea49\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\8b5c7a48aa8b0febffe9d2cd1ddeea49\transformed\activity-ktx-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\516717c9f93a80561ddbb5188edde5d4\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\516717c9f93a80561ddbb5188edde5d4\transformed\activity-compose-1.10.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8e3889c24cb8d82bcecb8c3afb056aad\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8e3889c24cb8d82bcecb8c3afb056aad\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\aa42881a6fb24a09a053170295b2e99f\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\aa42881a6fb24a09a053170295b2e99f\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d49061a77797bcf5116abf6a9ea4ca3f\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\d49061a77797bcf5116abf6a9ea4ca3f\transformed\datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\fd065d9917cb34477e757008c7724043\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\fd065d9917cb34477e757008c7724043\transformed\room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d76a7ca15b8d6aab61eab682eb9e11bc\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d76a7ca15b8d6aab61eab682eb9e11bc\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6b45bae38268d6f9ac2a8f75a6e0da80\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\6b45bae38268d6f9ac2a8f75a6e0da80\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\39639c77587900c26e73a12d8715d50e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\39639c77587900c26e73a12d8715d50e\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5d55cd3560f65699e5098255e7a0faa7\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\5d55cd3560f65699e5098255e7a0faa7\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\00cc96e81497a60369191b1ee6481438\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\00cc96e81497a60369191b1ee6481438\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\ea3e5365727ba8fa4bcbd9cde9e7d96c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\ea3e5365727ba8fa4bcbd9cde9e7d96c\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd4673525a31e97ae5d8bb7ff2c0f078\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] C:\Users\canox\.gradle\caches\8.10.2\transforms\cd4673525a31e97ae5d8bb7ff2c0f078\transformed\exifinterface-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\17061d2decacd1f3d319cdf2b7ce57dd\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\17061d2decacd1f3d319cdf2b7ce57dd\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b98f9c5f35bab9ce35b2462610c2912f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b98f9c5f35bab9ce35b2462610c2912f\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4fcc2bd47999b143ada26f1d3e015ba\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c4fcc2bd47999b143ada26f1d3e015ba\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\9464ffac7cea97ed1c3b3380557f3921\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\9464ffac7cea97ed1c3b3380557f3921\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\44977dde7aebd9743ea425c858472912\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\44977dde7aebd9743ea425c858472912\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:18:6-75
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:18:6-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+	tools:ignore
+		ADDED from [com.google.accompanist:accompanist-drawablepainter:0.30.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3ba78c0030dba0fe0cdc2229f1465571\transformed\accompanist-drawablepainter-0.30.1\AndroidManifest.xml:23:9-39
+	android:minSdkVersion
+		INJECTED from C:\Users\canox\AndroidStudioProjects\Parcial\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:10:5-79
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:24:5-79
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:20:6-79
+MERGED from [org.chromium.net:cronet-api:119.6045.31] C:\Users\canox\.gradle\caches\8.10.2\transforms\58aa9fc3fbd72d6f34fa1ce3640775b9\transformed\cronet-api-119.6045.31\AndroidManifest.xml:20:6-79
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_BASIC_PHONE_STATE
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_ADSERVICES_TOPICS
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:12:5-83
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:12:22-80
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:13:5-82
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:13:22-79
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:14:22-85
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:15:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\cc21789c99497b4f2411e6d667bb5139\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:15:22-76
+queries
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:18:5-51:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:21:9-27:18
+action#android.intent.action.VIEW
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:22:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:24:23-71
+data
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:26:13-44
+	android:scheme
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:26:19-41
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:30:9-32:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:31:13-90
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:31:21-87
+intent#action:name:android.intent.action.INSERT+data:mimeType:vnd.android.cursor.dir/event
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:35:9-39:18
+action#android.intent.action.INSERT
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:36:13-67
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:36:21-64
+intent#action:name:android.intent.action.VIEW+data:scheme:sms
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:40:9-44:18
+intent#action:name:android.intent.action.DIAL+data:path:tel:
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:45:9-49:18
+action#android.intent.action.DIAL
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:46:13-65
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:46:21-62
+activity#com.google.android.libraries.ads.mobile.sdk.common.AdActivity
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:54:9-59:43
+	android:exported
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:59:13-40
+	android:configChanges
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:56:13-122
+	android:theme
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:58:13-61
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:55:13-89
+property#android.adservices.AD_SERVICES_CONFIG
+ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:62:9-64:62
+	android:resource
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:64:13-59
+	android:name
+		ADDED from [com.google.android.libraries.ads.mobile.sdk:ads-mobile-sdk:0.15.1-alpha01] C:\Users\canox\.gradle\caches\8.10.2\transforms\a5a1b5b0b322782cd516dcb9f5e5da2d\transformed\ads-mobile-sdk-0.15.1-alpha01\AndroidManifest.xml:63:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\d612f5259ab605cb77f6fc63bacc61cc\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\65f19a061a848d774e8559c3202e7de0\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\f51b25dfb1c0db87d7d7eab2432b0674\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:26:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\4a6b5e5920797cdc1d9676898f37460d\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:30:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:34:13-36:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:36:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:35:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.10.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\8d9ed67566bacce960ada4cbc2444a3d\transformed\work-runtime-2.10.0\AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\b0ede75d4383d8a8ce8ce4d021ee76ef\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+permission#com.example.parcial.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+uses-permission#com.example.parcial.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\c3897f87d2fe5b2571fb1e8e21b328dd\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\canox\.gradle\caches\8.10.2\transforms\bf02345b97c138bff8a13dd85f282bea\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\a00902192120f6b218f28c824bd58081\transformed\ui-test-manifest-1.7.0\AndroidManifest.xml:24:13-63
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.1.0-beta05] C:\Users\canox\.gradle\caches\8.10.2\transforms\de44bf6655f2b9b470639878d7c733dc\transformed\ads-adservices-1.1.0-beta05\AndroidManifest.xml:24:13-50
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\canox\.gradle\caches\8.10.2\transforms\3b72ccc595721e2592027762e3b89461\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\canox\.gradle\caches\8.10.2\transforms\89089eeebe554bd33d8c435550bed708\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.parcial.app-mergeDebugResources-72:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\canox\\.gradle\\caches\\8.10.2\\transforms\\8d9ed67566bacce960ada4cbc2444a3d\\transformed\\work-runtime-2.10.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -33,6 +33,8 @@ import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
 import coil.request.ImageRequest
 import androidx.compose.material.icons.filled.Close
+import android.widget.Toast
+import androidx.compose.ui.platform.LocalContext
 
 @Composable
 fun ScreenDetalle(navController: NavController, productos: List<Producto>, carrito: MutableList<Producto>, id: Int?) {
@@ -44,6 +46,7 @@ fun ScreenDetalle(navController: NavController, productos: List<Producto>, carri
 
     val producto = productos.find { it.id == id }
 
+    // Si el producto no es encontrado, muestra un mensaje
     if (producto == null) {
         Box(
             modifier = Modifier
@@ -79,6 +82,8 @@ fun ScreenDetalle(navController: NavController, productos: List<Producto>, carri
         }
         return
     }
+
+    val context = LocalContext.current
 
     Box(
         modifier = Modifier
@@ -269,10 +274,10 @@ fun ScreenDetalle(navController: NavController, productos: List<Producto>, carri
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
                 modifier = Modifier.fillMaxWidth()
             ) {
-
                 Button(
                     onClick = {
                         carrito.add(producto)
+                        Toast.makeText(context, "Producto agregado al carrito", Toast.LENGTH_SHORT).show()
                     },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = secondaryColor),
@@ -295,6 +300,7 @@ fun ScreenDetalle(navController: NavController, productos: List<Producto>, carri
                         )
                     }
                 }
+
                 OutlinedButton(
                     onClick = { navController.popBackStack() },
                     modifier = Modifier.weight(0.8f),
@@ -323,3 +329,4 @@ fun ScreenDetalle(navController: NavController, productos: List<Producto>, carri
         }
     }
 }
+

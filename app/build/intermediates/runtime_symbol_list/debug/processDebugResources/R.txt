@@ -133,6 +133,7 @@ int drawable ic_call_answer_video 0x7f05001c
 int drawable ic_call_answer_video_low 0x7f05001d
 int drawable ic_call_decline 0x7f05001e
 int drawable ic_call_decline_low 0x7f05001f
+int drawable ic_error_image 0x7f050030
 int drawable ic_image_placeholder 0x7f050020
 int drawable ic_launcher_background 0x7f050021
 int drawable ic_launcher_foreground 0x7f050022
